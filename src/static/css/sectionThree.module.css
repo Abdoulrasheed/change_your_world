@@ -1,0 +1,68 @@
+.subtitle {
+    color: #C98028;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    text-align: center;
+    margin: 80px 0 20px;
+
+}
+.title {
+    font-size: 44px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #2b5597;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EBF3FF;
+    padding: 100px 0px 100px;
+}
+.highlight {
+    font-size: 44px;
+    line-height: 54px;
+    color: #2b5597;
+    font-weight: 700;
+    width: 35vw;
+}
+.story {
+    width: 40vw;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #464646;
+    margin-top: 20px;
+}
+.getStartedButton {
+    border: 0;
+    color: #fff;
+    padding: 0px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 6vw;
+    line-height: 24px;
+    border-radius: 35px;
+    font-weight: bolder;
+    background-color: #c27c27;
+    font-family: Montserrat, sans-serif;
+}
+.redtext {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #c98028;
+    margin-bottom: 20px;
+}
+.imageContainer {
+    margin-left: 50px;
+}
+.image {
+    border-radius: 5px;
+}
+.getStartedSection {
+    margin-left: 100px;
+}

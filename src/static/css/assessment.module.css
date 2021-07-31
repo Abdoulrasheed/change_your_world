@@ -1,0 +1,169 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(48, 33, 33, 0.5), rgba(0, 0, 0, 0.5)), url('../images/assessment_0.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: color-burn;
+    position: relative;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45vw;
+}
+.started {
+    display: none;
+}
+.title {
+    color: #fff;
+    font-size: 37px;
+    font-weight: bolder;
+}
+.subtitle {
+    color: #8C969A;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+.title, .subtitle {
+    text-align: center;
+}
+.buttonContainer {
+    color: #fff;
+    margin-left: 100px;
+}
+.buttonContainer span {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.button {
+    background-color: #E2A926;
+    width: 120px;
+    border: 0;
+    border-radius: 4px;
+    color: #000;
+    font-size: 23px;
+    font-weight: bolder;
+    line-height: 29px;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.estimatedTime {
+    color: #fff;
+    margin-top: 20px;
+}
+.estimatedTime svg {
+    margin-right: 10px;
+}
+.assessmentContainer {
+    color: #fff;
+    background: linear-gradient(0deg, rgba(28, 20, 58, 0.5), rgba(21, 37, 126, 0.2)), url('../images/assessment_1.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+.assessmentContainer::-webkit-scrollbar {
+  display: none;
+}
+.assessmentContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.counter {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.assessment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    text-align: center;
+    scroll-snap-align: start;
+    align-self: center;
+}
+.assessment .question {
+    font-size: 25px;
+    font-weight: 400;
+    width: 40vw;
+}
+.optionsContainer {
+    margin-top: 40px;
+}
+.option {
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    overflow-y: hidden;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    background-color:rgba(172, 172, 172, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+.option:hover {
+    background-color:rgba(172, 172, 172, 0.8);
+}
+.letter {
+    margin-right: 10px;
+    background-color: #2a353f;
+    padding: 3px 6px;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.7)
+}
+.okbutton {
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #E2A926;
+}
+.scrollerContainer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 15px;
+}
+.scrolltop, .scrollbottom  {
+    cursor: pointer;
+    background-image: url('../images/chevup.svg');
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-color: #E2A926;
+    background-size: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 30px;
+    height: 15px;
+    margin-right: .3px;
+    padding: 14px 20px;
+}
+.scrollbottom {
+    background-image: url('../images/chevdown.svg');
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+}

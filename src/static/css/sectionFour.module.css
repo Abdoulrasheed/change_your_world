@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+.subtitle {
+    color: #C98028;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    text-align: center;
+    margin: 80px 0 20px;
+
+}
+.title {
+    font-size: 44px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #2b5597;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 70vw;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 75vw;
+}
+.highlight {
+    font-size: 24px;
+    line-height: 29px;
+    color: #2b5597;
+    font-weight: 700;
+    width: 30vw;
+}
+.joinText {
+    font-size: 16px;
+    line-height: 26px;
+    color: #464646;
+    font-weight: 400;
+    margin: 35px 0 30px;
+}
+.getStartedButton {
+    border: 0;
+    color: #fff;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 24px;
+    border-radius: 35px;
+    font-weight: bolder;
+    background-color: #c27c27;
+    font-family: Montserrat, sans-serif;
+    width: 200px;
+    margin-top: 50px;
+}
+.actionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.videoOverlay {
+    cursor: pointer;
+    background-color: #CBCBCB;
+    width: 30vw;
+    height: 250px;
+    position: absolute;
+    opacity: 0.4;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    object-fit: cover;
+    width: 30vw;
+    height: 300px;
+    filter: brightness(1.52) opacity(0.35) ;
+}
+.playActionContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.playActionContainer:hover {
+    color: #264d8b;
+}
+.playButton {
+    content: url('../images/play.svg');
+    margin-left: 20px;
+}
+.getStartedSection {
+    width: 40vw;
+}
+.thirdText {
+    font-size: 24px;
+    line-height: 29px;
+    color: #264d8b;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.paragraph {
+    width: 75vw;
+    font-size: 16px;
+    line-height: 26px;
+    color: #464646;
+    font-weight: 400;
+    text-align: center;
+}
+.backcolor {
+    width: 40vw;
+    height: 30px;
+    background-color: #F4B75B;
+    position: absolute;
+    z-index: -1;
+    margin-bottom: 70px;
+    margin-right: 40vw;
+}
+.signInText {
+    margin: 30px 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #464646;
+}
