@@ -65,6 +65,11 @@ const Assessment = () => {
         element.current.scrollBy({ top: position });
     }
 
+    const markAnswer = () => {
+        //
+        scroll("ArrowDown");
+    }
+
     return (
         <div className={styles.container}>
             <div className={started ? styles.started : styles.content}>
@@ -87,12 +92,12 @@ const Assessment = () => {
                     <div className={styles.assessment} key={index}>
                         <span className={styles.question}><span className={styles.counter}>{index + 1} &rarr;</span> {item.question} *</span>
                         <ul className={styles.optionsContainer}>
-                            {item.options.map((item, index) => (<li className={styles.option} key={index}>
+                            {item.options.map((item, index) => (<li onClick={markAnswer} className={styles.option} key={index}>
                                 <span className={styles.letter}>{item.letter}</span>
                                 <span className={styles.answer}>{item.text}</span></li>))
                             }
                         </ul>
-                        <button className={styles.okbutton}>Ok &#10004;</button>
+                        <button onClick={markAnswer} className={styles.okbutton}>Ok &#10004;</button>
                     </div>
                 ))}
             </div>
